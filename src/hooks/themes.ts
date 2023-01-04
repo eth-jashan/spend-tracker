@@ -1,4 +1,4 @@
-import { pallets } from "../styles/pallets";
+import { pallets } from '../styles/pallets';
 
 const defaultTheme = {
   color: {
