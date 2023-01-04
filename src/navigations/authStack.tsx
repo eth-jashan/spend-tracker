@@ -5,7 +5,9 @@ import LoginScreen from "../screens/AuthStack/LoginScreen";
 import SignupScreen from "../screens/AuthStack/SignupScreen";
 const Stack = createNativeStackNavigator();
 
-const AuthStack = () => {
+// export type Props = {};
+
+const AuthStack: React.FC = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Signup" component={SignupScreen} />
