@@ -2,15 +2,15 @@ import { pallets } from '../styles/pallets';
 
 const defaultTheme = {
   color: {
-    appBackground: pallets.white,
+    appBackground: pallets.black,
     cardBackgroundPrimary: pallets.lightBlack,
-    cardBackgroundSecondary: pallets.black,
+    primary: pallets.primary,
   },
-  //   spacing: {
-  //     S: 8,
-  //     M: 12,
-  //     L: 16,
-  //   },
+  spacing: {
+    S: 8,
+    M: 12,
+    L: 16,
+  },
   //   font: {
   //     primary: palette.lato,
   //     secondary: palette.poppins,
